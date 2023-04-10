@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 03</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body> 
+    <div class="container">
+        <h1>Aula3</h1>
+        <form action="">
+            <label for="username">Nome do usuário</label>
+            <input id="username" type="text" class="form-control" placeholder="Digite o username">
+
+            <div class="form-text">Neste campo não podem ser inseridos caracteres especiais.</div>
+
+            <hr>
+
+            <!--Tamanhos de componentes do formulário-->
+            <input type="text" value="Jacareí- SP" class="form-control form-control-sm">
+            <br>
+            <input type="text" value="Jacareí- SP" class="form-control">
+            <br>
+            <input type="text" value="Jacareí- SP" class="form-control form-control-lg" disabled>
+            <br> <!--Disabled Desabilita o campo-->
+
+            <!--Envio de arquivos-->
+            <input type="file" name="arquivo" id="arquivo" class="form-control">
+            <br>
+
+            <!--Color - Color Piker -->
+            <input type="color" name="" id="" class="form-control form-control-color">
+            <br>
+
+            <!--Componentes de SELEÇÃO - Select-->
+            <select name="" id="" class="form-select">
+                <option value="">São Paulo</option>
+                <option value="" selected>Rio de Janeiro</option>
+                <option value="">Curitiba</option>
+            </select>
+            <br>
+
+            <!--Checkboxes e Radiobutton's-->
+            <p>
+                Selecione as cidades de seu interesse:
+            </p>
+            <input type="checkbox" name="" id="Maragogi" value="Maragogi" class="form-check-input">
+            <label for="Maragogi">Maragogi</label>
+            <br>
+            <input type="checkbox" name="" id="Olinda" value="Olinda" class="form-check-input">
+            <label for="Olinda">Olinda</label>
+            <br>
+            <input type="checkbox" name="" id="Fortaleza" value="Fortaleza" class="form-check-input">
+            <label for="Fortaleza">Fortaleza</label>
+            <hr>
+            <p>
+                Em qual horário você prefere?
+            </p>
+            <input type="radio" name="turno" id="manhã" class="form-check-input">
+            <label for="manhã">Manhã</label>
+            <br>
+            <input type="radio" name="turno" id="tarde" class="form-check-input">
+            <label for="tarde">Tarde</label>
+            <br>
+            <input type="radio" name="turno" id="noite" class="form-check-input">
+            <label for="noite">Noite</label>
+            <br>
+            <hr>
+            <!--Switch-->
+            <p>Configurações de perfil:</p>
+            <div class="form-check form-switch">
+                <input type="checkbox" name="" id="" class="form-check-input">
+            </div>
+        </form>
+        
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
